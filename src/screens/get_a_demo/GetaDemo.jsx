@@ -20,12 +20,12 @@ const GetaDemo = (props) => {
         let data ={email}
 
     
-        axios.post('/api/email',data).then(res=>{
+    //     axios.post('/api/email',data).then(res=>{
          
-       }).catch(()=>{
-         console.log('message not sent');
-       })
- 
+    //    }).catch(()=>{
+    //      console.log('message not sent');
+    //    })
+        
         setTimeout(() => {
             props.history.push("/thanks")
             
