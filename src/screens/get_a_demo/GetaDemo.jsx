@@ -17,7 +17,7 @@ const GetaDemo = (props) => {
     const handleSubmit = e =>{
         e.preventDefault()
 
-        let data ={email}
+       // let data ={email}
 
     
     //     axios.post('/api/email',data).then(res=>{
